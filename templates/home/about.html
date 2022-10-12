@@ -1,0 +1,385 @@
+{% extends 'base.html' %}
+
+{% block title %}About Us{% endblock title %}
+
+{% block aboutactive %}active{% endblock aboutactive %}
+
+{% block body %}
+<section>
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.header {
+   width: 100%;
+   height: 500px;
+   opacity: 0.8;
+   background-color: rgb(30, 173, 255);
+   background-image: url("https://res.cloudinary.com/arpr/image/upload/v1541394028/architecture-building-campus-207684.jpg");
+   background-size: cover;
+   background-position: bottom;
+}
+.container {
+   width: 100%;
+}
+.container h2 {
+   font-size: 50px;
+}
+.about {
+   padding: 5% 0;
+   width: 100%;
+   height: auto;
+   background-color: #fff;
+}
+.about .left {
+   padding: 2% 0;
+   float: left;
+   width: 50%;
+   display: inline-block;
+}
+.about .right {
+   width: 50%;
+   display: inline-block;
+}
+.about .right img {
+   width: 100%;
+}
+.about .left h2 {
+   text-align: center;
+   color: #1eadff;
+   margin: 0 0 10px 0;
+}
+.about .left hr {
+   width: 20%;
+   border-top: 2px solid #000;
+   border-bottom: none;
+}
+.about .left p {
+   font-size: 1rem;
+   margin: 40px auto;
+   width: 80%;
+}
+
+.mission {
+   padding: 5% 0;
+   width: 100%;
+   height: auto;
+   background-color: #fff;
+}
+.mission .right {
+   padding: 2% 0;
+   width: 50%;
+
+   display: inline-block;
+}
+.mission .left {
+   float: left;
+   width: 50%;
+
+   display: inline-block;
+}
+.mission .left img {
+   width: 100%;
+}
+.mission .right h2 {
+   text-align: center;
+   color: #1eadff;
+   margin: 0 0 20px 0;
+}
+.mission .right hr {
+   width: 35%;
+   border-top: 2px solid #000;
+   border-bottom: none;
+}
+.mission .right p {
+   font-size: 1rem;
+   margin: 40px auto;
+   width: 80%;
+}
+
+
+
+
+.clear {
+   clear: both;
+}
+
+
+
+/* media */
+@media(max-width:1200px) {
+   .mission .right p {
+      font-size: 0.8rem;
+      margin: 20px auto;
+   }
+   .about .left p {
+      font-size: 0.8rem;
+      margin: 20px auto;
+   }
+}
+
+@media (max-width: 992px) {
+   .about .left {
+      width: 100%;
+   }
+   .about .right {
+      width: 100%;
+   }
+   .mission .left {
+      width: 100%;
+   }
+   .mission .right {
+      width: 100%;
+   }
+   
+}
+
+@media (max-width: 768px) {
+   
+   
+}
+
+  </style>
+  <div class="header">
+
+  </div>
+
+  <div class="container">
+
+    <div class="about">
+      <div class="left">
+        <h2>About us</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </div>
+      <div class="right">
+        <img
+          src="https://res.cloudinary.com/arpr/image/upload/v1540359700/adult-affection-baby-755028.jpg">
+      </div>
+      <div class="clear"></div>
+    </div>
+
+
+
+    <div class="mission">
+
+      <div class="left">
+        <img
+          src="https://res.cloudinary.com/arpr/image/upload/v1540359700/adult-affection-baby-755028.jpg">
+      </div>
+      <div class="right">
+        <h2>Mission Statement</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </div>
+      <div class="clear"></div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+</section>
+
+
+
+<section>
+  <style>
+    /* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btnx {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btnx:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+
+  </style>
+
+
+
+  <div class="main">
+    
+    <ul class="cards">
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btnx card_btnx">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://picsum.photos/500/300/?image=5"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btnx card_btnx">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btnx card_btnx">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://picsum.photos/500/300/?image=14"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btnx card_btnx">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://picsum.photos/500/300/?image=17"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btnx card_btnx">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btnx card_btnx">Read More</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  
+ 
+
+
+
+</section>
+{% endblock body %}
